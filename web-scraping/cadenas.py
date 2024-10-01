@@ -16,7 +16,7 @@ print(cadena.count("o")) #cuenta la cantidad de veces que aparece un caracter
 print(cadena.capitalize()) #pone la primera letra en mayuscula
 print(cadena.upper()) #pone todo en mayuscula
 print(cadena.lower()) #pone todo en minuscula
-print(cadena.replace("perro", "gato")) #reemplaza una palabra por otra
+print(cadena.replace("perro", "gato")) #reemplaza una palabra por otra si le pongo otro argumento es para la cantidad a remplazar
 print(cadena.split(" ")) #separa la cadena en una lista
 print(cadena.strip()) #elimina los espacios en blanco al inicio y al final
 print(cadena.startswith("El")) #verifica si la cadena comienza con un caracter
@@ -35,3 +35,4 @@ print(cadena.isdigit()) #verifica si la cadena es digito
 print(cadena.isnumeric()) #verifica si la cadena es numerico
 print(cadena.isprintable()) #verifica si la cadena es imprimible
 print(cadena.isidentifier()) #verifica si la cadena es un identificador
+
